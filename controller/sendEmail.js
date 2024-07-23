@@ -66,6 +66,7 @@ const sendEmail = async (req, res) => {
             success: true,
             message: "Mail sent successfully"
         })
+        
     } catch (error) {
         return res.status(500).send({
             success: false,
